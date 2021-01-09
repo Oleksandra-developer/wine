@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <title>Le-corte</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="container">
         <address>
-          <ul>
+          <ul class="header_adress">
               <li>Новокузнечный переулок 4/1</li>
               <li>8 (812) 123-45-67</li>
           </ul>  </address>
         <nav>
-            <ul>
-                <li><a href="#"></a>Каталог</a></li>
-                <li><a href="#"></a>Доставка</a></li>
-                <li><a href="#"></a>Коллекции</a></li>
-                <li><a href="#"></a>Контакты</a></li>
+            <ul class="header_nav">
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Коллекции</a></li>
+                <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero">
             <div class="container">
-               <ul>
+                <h1>wine</h1>
+               <ul class="hero_btns">
                    <li><button class="button">винная карта</button></li>
                    <li><button class="button">дегустация</button></li>
                </ul>
@@ -34,14 +40,16 @@
         </section>
         <section class="story">
             <div class="container">
-                <h2>Лучший вкус, это вкус долголетнего вина</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing.
+                <div class="border-story">
+                <h2 class="story_title">Лучший вкус, это вкус долголетнего вина</h2>
+                <p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing.
                 Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar
                 blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus
                 auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque
                 viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam.
                 Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
-            <div class="cup"><img src="./images/cup@1x.png" alt="cup"></div>
+            <img class="story_cup" src="./images/cup@1x.png" alt="cup" >
+            </div>
             </div>
         </section>
         <section class="collection">

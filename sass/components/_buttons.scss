@@ -1,0 +1,5 @@
+button {
+  background-color: $accent;
+  padding: 15px 30px;
+  @extend %buttonText;
+}

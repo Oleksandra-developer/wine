@@ -1,0 +1,34 @@
+.story {
+  background-color: $bgColorBlack;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: $white;
+
+  & h2 {
+    position: relative;
+    @extend %title;
+    margin-bottom: 40px;
+  }
+  //   & h2
+}
+.story_title::after {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%);
+  content: '';
+  border-bottom: 1px solid $white;
+  width: 160px;
+}
+.border-story {
+  border: 3px solid $borderToBlack;
+  padding: 60px 184px;
+}
+.story_text {
+  padding-top: 40px;
+}
+.story_cup {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

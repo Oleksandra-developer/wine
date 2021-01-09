@@ -1,0 +1,26 @@
+%title {
+  font-family: $titleText;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+}
+%buttonText {
+  font-family: $bodyText;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $white;
+}
+%mainText {
+  font-family: $bodyText;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
