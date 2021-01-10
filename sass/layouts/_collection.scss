@@ -44,14 +44,14 @@
   margin-bottom: 30px;
 }
 
-td:nth-child(odd) {
+.collection_item:nth-child(odd) {
   padding: 24px;
   border-right: 1px solid $bgColorBlack;
   // border-bottom: 1px solid $bgColorBlack;
   // background-color: tomato;
 }
 
-td:nth-child(even) {
+.collection_item:nth-child(even) {
   // border-bottom: 1px solid $bgColorBlack;
   padding: 10px 25px 15px 30px;
 }

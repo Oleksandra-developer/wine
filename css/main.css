@@ -56,7 +56,7 @@ button {
   color: #fff;
 }
 
-body, .header_adress, .header_nav li, .collection_text, .input-form::placeholder {
+body, .header_adress, .header_nav li, .collection_text, .input-form::placeholder, .footer_nav li, .contacts-item {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -213,12 +213,12 @@ h1 {
   margin-bottom: 30px;
 }
 
-td:nth-child(odd) {
+.collection_item:nth-child(odd) {
   padding: 24px;
   border-right: 1px solid #282828;
 }
 
-td:nth-child(even) {
+.collection_item:nth-child(even) {
   padding: 10px 25px 15px 30px;
 }
 
@@ -345,5 +345,62 @@ h3 {
 
 label + label {
   margin-left: 30px;
+}
+
+footer {
+  padding: 50px;
+  padding-bottom: 50px;
+  background-color: #998431;
+}
+
+.footer_nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.footer_nav li {
+  flex-basis: calc(100% / 7);
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer_contacts {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.contacts-item {
+  font-weight: 600;
+  font-size: 14px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 20px 58px;
+  color: #fff;
+}
+
+.contacts-item:last-child {
+  padding-right: 95px;
+}
+
+.contacts-item:first-child {
+  border-left: none;
+  padding-left: 90px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links + .social-links {
+  margin-left: 39px;
 }
 /*# sourceMappingURL=main.css.map */
