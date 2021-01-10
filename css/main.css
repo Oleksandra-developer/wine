@@ -56,7 +56,7 @@ button {
   color: #fff;
 }
 
-body, .header_adress, .header_nav li, .collection_text {
+body, .header_adress, .header_nav li, .collection_text, .input-form::placeholder {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -245,5 +245,105 @@ h3 {
   display: flex;
   flex-basis: calc((100% - 30px) / 2);
   justify-content: space-between;
+}
+
+.record {
+  position: relative;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  background-color: #282828;
+  color: #fff;
+  text-align: center;
+}
+
+.record_strike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border-img1 {
+  position: absolute;
+  top: 60px;
+  left: 55px;
+}
+
+.border-img2 {
+  position: absolute;
+  top: 64px;
+  right: 38px;
+}
+
+.record_title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 36px;
+}
+
+.record_title-container {
+  padding: 10px 50px;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #282828;
+}
+
+.record_form {
+  border-bottom: 3px solid #e6e3c4;
+  border-left: 3px solid #e6e3c4;
+  border-right: 3px solid #e6e3c4;
+  border-top: 3px solid #e6e3c4;
+  padding-left: 285px;
+  padding-right: 285px;
+  padding-top: 105px;
+}
+
+.form {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-addres {
+  margin-top: 40px;
+}
+
+.submit {
+  margin-top: 60px;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  background-color: inherit;
+  border: 1px solid #fff;
+}
+
+.input-form {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: initial;
+  border-color: #fff;
+  padding-bottom: 10px;
+}
+
+.input-form::placeholder {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+}
+
+.name-tel-form .input-form {
+  width: 255px;
+}
+
+.form-addres .input-form {
+  width: 100%;
+}
+
+label + label {
+  margin-left: 30px;
 }
 /*# sourceMappingURL=main.css.map */
