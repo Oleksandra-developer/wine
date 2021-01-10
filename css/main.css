@@ -32,7 +32,11 @@ ul {
   margin: 0;
 }
 
-.story h2 {
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.story h2, .collection_title {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 700;
@@ -52,10 +56,10 @@ button {
   color: #fff;
 }
 
-body, .header_adress, .header_nav li {
+body, .header_adress, .header_nav li, .collection_text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -144,7 +148,7 @@ h1 {
 
 .story_title::after {
   position: absolute;
-  top: 90px;
+  bottom: -30px;
   left: 50%;
   transform: translate(-50%);
   content: '';
@@ -165,5 +169,81 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+.collection {
+  background-color: #e6e3c4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.collection .container {
+  border-top: 1px solid #998431;
+  border-bottom: 1px solid #998431;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.collection_title {
+  font-size: 18px;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.collection_title::after {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  content: '';
+  border-bottom: 1px solid #282828;
+  width: 160px;
+}
+
+.collection_text {
+  font-size: 14px;
+  text-align: left;
+  width: 445px;
+  margin-right: 125px;
+}
+
+.collection_table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+td:nth-child(odd) {
+  padding: 24px;
+  border-right: 1px solid #282828;
+}
+
+td:nth-child(even) {
+  padding: 10px 25px 15px 30px;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #282828;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.collection .button {
+  margin-top: 30px;
+}
+
+.collection_large-img {
+  margin-bottom: 30px;
+}
+
+.collection_small-img {
+  display: flex;
+  flex-basis: calc((100% - 30px) / 2);
+  justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
